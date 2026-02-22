@@ -7,6 +7,9 @@ Built with **Ursina Engine** (Panda3D) — fully custom physics, no external phy
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Billiards Simulator Screenshot](images/img1.png)
+
+![Billiards Simulator Command Mode Screenshot](images/img2.png)
 ---
 
 ## Features
@@ -33,7 +36,7 @@ Built with **Ursina Engine** (Panda3D) — fully custom physics, no external phy
 │  main.py         │   pending_events   │  controller  │     │  Engine      │
 │  (Layer 3)       │   physics_events   │  .py (L2)    │     │  physics.py  │
 └──────────────────┘                    └──────────────┘     │  (L1)        │
-                                                              └──────────────┘
+                                                             └──────────────┘
 ```
 
 | Layer | File | Role |
@@ -50,8 +53,8 @@ Layers 1 & 2 have no rendering dependency, enabling headless RL training.
 
 ```bash
 # Clone
-git clone https://github.com/skoo1/KBilliards_Ursina.git
-cd KBilliards_Ursina
+git clone https://github.com/skoo1/Four-Ball_Billiards_Ursina.git
+cd Four-Ball_Billiards_Ursina
 
 # Virtual environment (recommended)
 python -m venv venv
@@ -162,7 +165,7 @@ SCRIPT = {
 ## Project Structure
 
 ```
-KBilliards_Ursina/
+Four-Ball_Billiards_Ursina/
 ├── main.py               # Layer 3 — Ursina renderer, input, UI
 ├── controller.py         # Layer 2 — game logic, AI, RL API
 ├── physics.py            # Layer 1 — physics engine
@@ -201,6 +204,13 @@ KBilliards_Ursina/
 
 ---
 
+## Author & Acknowledgments
+
+Made by Seungbum Koo, PhD KAIST, Daejeon, South Korea
+
+Developed with the assistance of Claude Code.
+
+---
 ## License
 
 MIT
