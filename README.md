@@ -206,7 +206,7 @@ Four-Ball_Billiards_Ursina/
 
 ## Author & Acknowledgments
 
-Made by Seungbum Koo, PhD KAIST, Daejeon, South Korea
+Made by Seungbum Koo, PhD, KAIST, Daejeon, South Korea
 
 Developed with the assistance of Claude Code.
 
